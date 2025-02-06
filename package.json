@@ -1,0 +1,41 @@
+{
+  "publisher": "barbapapazes",
+  "name": "utils-snippets-vscode",
+  "displayName": "Utils Snippets",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.2.0",
+  "description": "Become a 10x engineer with snippets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barbapapazes/utils-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.83.1"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "publish": "vsce publish --no-dependencies",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "npm run lint && bumpp"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.1.1",
+    "@vscode/vsce": "^3.2.2",
+    "bumpp": "^10.0.2",
+    "eslint": "9.5.0"
+  }
+}
