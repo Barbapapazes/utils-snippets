@@ -2,7 +2,7 @@
   "New PHP Block": {
     "isFileTemplate": true,
     "description": "Create a new PHP block within any file",
-    "prefix": "new:php-block",
+    "prefix": "new:php:block",
     "body": [
       "<?php",
       "",

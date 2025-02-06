@@ -1,0 +1,33 @@
+{
+  "New Vue Full Component": {
+    "isFileTemplate": true,
+    "description": "Create a new Vue component with everything needed for a complete UI component",
+    "prefix": "new:vue:full-component",
+    "body": [
+      "<script lang=\"ts\">",
+      "const ${TM_FILENAME_BASE/(.*)/${1:/camelcase}/} = tv({",
+      " slots: {},",
+      "})",
+      "",
+      "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
+      "  class?: any",
+      "  ui?: Partial<typeof ${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}.slots>",
+      "}",
+      "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Emits {}",
+      "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Slots {}",
+      "</script>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "const props = defineProps<${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props>()",
+      "defineEmits<${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Emits>()",
+      "defineSlots<${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Slots>()",
+      "",
+      "const ui = computed(() => ${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}())",
+      "</script>",
+      "",
+      "<template>",
+      "  $0",
+      "</template>"
+    ]
+  }
+}
