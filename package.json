@@ -5,7 +5,7 @@
   "type": "module",
   "version": "0.0.3",
   "private": true,
-  "packageManager": "pnpm@10.2.0",
+  "packageManager": "pnpm@10.2.1",
   "description": "Become a 10x engineer with snippets",
   "license": "MIT",
   "repository": {
