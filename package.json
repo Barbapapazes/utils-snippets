@@ -25,6 +25,10 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
+        "language": "markdown",
+        "path": "./snippets/md.json"
+      },
+      {
         "language": "vue",
         "path": "./snippets/vue.json"
       }
