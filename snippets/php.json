@@ -1,0 +1,15 @@
+{
+  "New Laravel Class": {
+    "isFileTemplate": true,
+    "description": "Create a class with the correct namespace. Fine tuned for Laravel",
+    "prefix": "new:laravel:class",
+    "body": [
+      "namespace ${RELATIVE_FILEPATH/^(app)\\/([^\\/]+)\\/[^\\/]+\\.php$/App\\$2/g};",
+      "",
+      "class ${TM_FILENAME_BASE}",
+      "{",
+      "  $0",
+      "}"
+    ]
+  }
+}
