@@ -1,0 +1,13 @@
+{
+  "New Vitest File": {
+    "isFileTemplate": true,
+    "description": "Create a new Vitest file",
+    "prefix": "new:vitest:file",
+    "body": [
+      "import { expect, it } from 'vitest'",
+      "import { render, screen } from '@testing-library/vue'",
+      "",
+      "it('$1', () => {$0})"
+    ]
+  }
+}

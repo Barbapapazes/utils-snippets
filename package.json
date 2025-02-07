@@ -33,6 +33,10 @@
         "path": "./snippets/vue.json"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
         "language": "php",
         "path": "./snippets/php.json"
       }
