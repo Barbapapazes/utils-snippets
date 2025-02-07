@@ -9,5 +9,13 @@
       "",
       "it('$1', () => {$0})"
     ]
+  },
+  "New Vitest Test": {
+    "isFileTemplate": false,
+    "description": "Create a new Vitest test",
+    "prefix": "new:vitest:test",
+    "body": [
+      "it('$1', () => {$0})"
+    ]
   }
 }
