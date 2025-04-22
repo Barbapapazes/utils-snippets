@@ -6,7 +6,9 @@
     "body": [
       "<script lang=\"ts\">",
       "const ${TM_FILENAME_BASE/(.*)/${1:/camelcase}/} = tv({",
-      " slots: {},",
+      "  slots: {",
+      "    base: ''",
+      "  },",
       "})",
       "",
       "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Props {",
