@@ -1,0 +1,9 @@
+{
+  "New Vue Class UI": {
+    "description": "Snippet to handle :class=\"ui.x({ class: props.ui?.x })\" pattern",
+    "prefix": "new:vue:class-ui",
+    "body": [
+      ":class=\"ui.${1}({ class: props.ui?.${1} })\""
+    ]
+  }
+}
