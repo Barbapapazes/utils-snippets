@@ -5,7 +5,7 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.2.0",
+  "packageManager": "pnpm@10.9.0",
   "description": "Become a 10x engineer with snippets",
   "license": "MIT",
   "repository": {
@@ -53,9 +53,9 @@
     "release": "npm run lint && bumpp"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.1.1",
-    "@vscode/vsce": "^3.2.2",
-    "bumpp": "^10.0.2",
+    "@antfu/eslint-config": "^4.12.0",
+    "@vscode/vsce": "^3.3.2",
+    "bumpp": "^10.1.0",
     "eslint": "9.5.0"
   }
 }
