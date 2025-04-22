@@ -11,5 +11,14 @@
       "  $0",
       "}"
     ]
+  },
+  "New Pest Test": {
+    "description": "Create a Pest test structure",
+    "prefix": "new:pest:test",
+    "body": [
+      "it('$1', function () {",
+      "    $0",
+      "});"
+    ]
   }
 }
