@@ -31,5 +31,18 @@
       "    $0",
       "}"
     ]
+  },
+  "New Laravel Action": {
+    "description": "Create a Laravel action class with a handle function",
+    "prefix": "new:laravel:action",
+    "body": [
+      "namespace ${RELATIVE_FILEPATH/^(app)\\/([^\\/]+)\\/[^\\/]+\\.php$/App\\$2/g};",
+      "",
+      "class ${TM_FILENAME_BASE} {",
+      "    public function handle() {",
+      "        $0",
+      "    }",
+      "}"
+    ]
   }
 }
