@@ -44,5 +44,41 @@
       "    }",
       "}"
     ]
+  },
+  "One to One Relation": {
+    "description": "Create a one-to-one relationship in a model with PHPStan comments",
+    "prefix": "new:laravel:relation:one-to-one",
+    "body": [
+      "/**",
+      " * @return HasOne<${1}, covariant $$this>",
+      " */",
+      "public function ${2}(): HasOne {",
+      "    return $$this->hasOne(${1}::class);",
+      "}"
+    ]
+  },
+  "One to Many Relation": {
+    "description": "Create a one-to-many relationship in a model with PHPStan comments",
+    "prefix": "new:laravel:relation:one-to-many",
+    "body": [
+      "/**",
+      " * @return HasMany<${1}, covariant $$this>",
+      " */",
+      "public function ${2}(): HasMany {",
+      "    return $$this->hasMany(${1}::class);",
+      "}"
+    ]
+  },
+  "Many to Many Relation": {
+    "description": "Create a many-to-many relationship in a model with PHPStan comments",
+    "prefix": "new:laravel:relation:many-to-many",
+    "body": [
+      "/**",
+      " * @return BelongsToMany<${1}, covariant $$this>",
+      " */",
+      "public function ${2}(): BelongsToMany {",
+      "    return $$this->belongsToMany(${1}::class);",
+      "}"
+    ]
   }
 }
