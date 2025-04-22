@@ -20,5 +20,16 @@
       "    $0",
       "});"
     ]
+  },
+  "New Laravel Interface": {
+    "description": "Create a Laravel interface with the correct namespace",
+    "prefix": "new:laravel:interface",
+    "body": [
+      "namespace ${RELATIVE_FILEPATH/^(app)\\/([^\\/]+)\\/[^\\/]+\\.php$/App\\$2/g};",
+      "",
+      "interface ${TM_FILENAME_BASE} {",
+      "    $0",
+      "}"
+    ]
   }
 }
