@@ -3,7 +3,7 @@
   "name": "utils-snippets-vscode",
   "displayName": "Utils Snippets",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "packageManager": "pnpm@10.13.1",
   "description": "Become a 10x engineer with snippets",
