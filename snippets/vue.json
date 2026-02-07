@@ -66,15 +66,15 @@
       "</script>",
       "",
       "<template>",
-      "  <Slideover",
+      "  <USlideover",
       "    :title=\"title\"",
       "    :description=\"description\"",
-      "    :class=\"ui.base({ class: [props.class, props.ui?.base] })\"",
+      "    :class=\"ui.base({ class: [props.ui?.base, props.class] })\"",
       "  >",
       "    <template #body>",
       "      $0",
       "    </template>",
-      "  </Slideover>",
+      "  </USlideover>",
       "</template>"
     ]
   },
@@ -112,15 +112,15 @@
       "</script>",
       "",
       "<template>",
-      "  <Modal",
+      "  <UModal",
       "    :title=\"title\"",
       "    :description=\"description\"",
-      "    :class=\"ui.base({ class: [props.class, props.ui?.base] })\"",
+      "    :class=\"ui.base({ class: [props.ui?.base, props.class] })\"",
       "  >",
       "    <template #body>",
       "      $0",
       "    </template>",
-      "  </Modal>",
+      "  </UModal>",
       "</template>"
     ]
   }
