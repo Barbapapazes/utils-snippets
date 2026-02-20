@@ -16,7 +16,7 @@
     "Snippets"
   ],
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.109.5"
   },
   "contributes": {
     "snippets": [
